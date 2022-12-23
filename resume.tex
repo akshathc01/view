@@ -1,0 +1,249 @@
+%-------------------------
+% Resume in Latex
+% Author : Akshath Chaudhary
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem, calc}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\renewcommand\small{\normalsize}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-0.7in}
+\addtolength{\textheight}{1.5in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{0pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+\def\CC{{C\nolinebreak[4]\hspace{-.05em}\raisebox{.4ex}{\tiny\bf ++}}}
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\huge \scshape Akshath Chaudhary} \\ \vspace{1pt}
+    \small (416)\,830-4337 $|$ \href{mailto:akshath.chaudhary@uwaterloo.ca}{\underline{akshath.chaudhary@uwaterloo.ca}} $|$ 
+    \href{https://linkedin.com/in/akshathc01}{\underline{LinkedIn}} $|$
+    \href{https://github.com/akshathc01}{\underline{Github}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of Waterloo}{September 2019 -- May 2024}
+      {4A, Bachelor of Computer Science; \textbf{CGPA: 3.90/4.00}}{Waterloo, ON}
+      \begin{itemize}
+%      \small\item \textbf{CGPA}: 3.90/4.00
+      \small\item \textbf{Awards}: \textit{Dean's Honours List, Concept Entrepreneurship Funding Recipient, Intramural Soccer finalist}
+      \small\item \textbf{Relevant Coursework}: \textit{Data Structures and Data Management, Machine Learning, Computer Security, Object-Oriented Software Development, Algorithm Design and Data Abstraction, Operating Systems}
+      \end{itemize}
+   \resumeSubHeadingListEnd
+
+
+
+
+
+ 
+
+%-----------EXPERIENCE-----------
+\section{Relevant Experience}
+  \resumeSubHeadingListStart
+  \resumeSubheading
+      {Coinbase}{September 2022 -- December 2022}
+      {Software Engineering Intern}{Toronto, ON}
+      \resumeItemListStart
+    % %   \resumeItem{Joining the Infrastructure  \& Platform team to build the backend platform of core Coinbase products.}
+    %     \resumeItem{Joining the Institutional Trading team to develop and analyze high-frequency trading algorithms.}
+        \resumeItem{Joining the Machine Learning \& Platform team to build machine intelligence into Coinbase products.}
+        % \resumeItem{Joining the Coin Recommendation team to build machine intelligence into Coinbase products.}
+       \resumeItemListEnd
+      
+   \resumeSubheading
+      {Lumafield}{January 2022 -- April 2022}
+      {Software Engineering Intern}{San Francisco, CA}
+       \resumeItemListStart
+       \resumeItem{Developed a self-learning \textbf{recommendation engine} with collaborative filtering for initial scan settings per customer segment using TensorFlow, Pandas, and Matplotlib.}
+       \resumeItem{Developed a \textbf{language processing} algorithm to detect and match similar scans for easy analysis with a $k$-fold cross validated accuracy of 85\% using SciPy and NumPy.}
+       \resumeItem{Constructed an ETL \textbf{pipeline} to concurrently update scan specific data in real-time which reduced wait time by 35\% and decreased storage consumption by 60\% using Dask, Kubernetes, and SQLAlchemy.}
+       \resumeItemListEnd
+    
+    \resumeSubheading
+      {Huawei}{May 2021 -- December 2021}
+      {Software Engineering Intern}{Toronto, ON}
+      \resumeItemListStart
+      %Improved runtime of Static Timing Analysis (STA) by implementing a conditional incremental algorithm that updates the subset of modified edges and nodes in the timing graph which boosted the overall runtime by 800\%
+%        \resumeItem{Improved runtime of Static Timing Analysis (STA) by over 88\% via a conditional incremental algorithm that identifies and updates the subset of edges and nodes in the timing graph that have been modified.}
+	\resumeItem{\textbf{Improved runtime} of FPGA Static Timing Analysis (STA) by over 88\% via a conditional incremental algorithm using Boost that identifies and updates modified elements in the netlist.}
+        \resumeItem{Spearheaded development of a \textbf{testing framework} that increased code coverage by 120\% using CMake.}
+%        \resumeItem{Developed a validation function which dumps out the components, connections, clocks, and ports. This function assists in debugging and validating the design generated by an FPGA chip. }
+	 \resumeItem{Implemented a \textbf{path delay validator} that estimates all point to point delays using node aggregation.}
+      \resumeItemListEnd
+      \vspace{0pt}
+ %-----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+    %\resumeSubHeadingListEnd
+%-------------------------------------------
+
+    \resumeSubheading
+      {Unite}{May 2020 -- August 2020}
+      {Lead Full Stack Developer Intern}{Waterloo, ON}
+      \resumeItemListStart
+        \resumeItem{\textbf{Promoted} to Lead Full Stack Developer for excellent performance. Led a team that was in charge of developing new and existing features for Unite's web applications.}
+        \resumeItem{\textbf{Saved \$20,000} for the company by refactoring the existing codebase to exclude Google's restricted scopes. Successfully led the Google security assessment with a turnover of just 2 days.}
+        \resumeItem{Decreased product delivery time from \textbf{2 days to 10 seconds} by developing a custom Node.js module that automates deployment via direct addition of the product to the user’s account.}
+    \resumeItemListEnd
+    % \resumeSubSubheading
+    %  {Full Stack Developer Intern}{May 2020 -- June 2020}
+    %  \resumeItemListStart
+    %      \resumeItem{Designed and developed a \textbf{social community platform} using Node.js for the company’s users to come together, demo, and vote for their favourite products in a record time of under 2 weeks.}
+    %      \resumeItem{\textbf{Search Engine Optimized} Unite's website that resulted in a 65\% increase in traffic over 4 weeks.}
+    %      \resumeItem{Optimized the existing codebase by compressing heavy content and prioritizing above the fold content that resulted in a 45\% \textbf{decrease in loading time} and a 110\% increase in Google PageSpeed score.}
+    %  \resumeItemListEnd
+
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+    	{\textbf{Taco} $|$ \emph{NLP, React.js, Express,js, Firestore, Python}}{June 2021}
+          \resumeItemListStart
+         % \resumeItem{Built a speech therapy app designed to help long-term recovering COVID patients fix their impairment.}
+            \resumeItem{Implemented a unique quantitative speech analysis algorithm using GCP NLP, Express.js, and Firestore that returns a score based on the user's confidence, clarity, and syntax. Built the frontend using React. }
+            \resumeItem{Declared as the \textbf{overall winner} of EngHacks 2021 and secured the first prize among \textbf{300+} hackers.}
+          \resumeItemListEnd
+    %   \resumeProjectHeading
+    %       {\textbf{AlgoTrading Bot} $|$ \emph{Python, Pandas, NumPy}}{April 2021}
+    %       \resumeItemListStart
+    %         \resumeItem{Developed a stock trading bot that has been backtested with an ROI of 18\% over 4 months.}
+    %         \resumeItem{Implemented a strategy that combines Renko charts and MACD indicator and used it on volatile stocks.}
+           % \resumeItem{Strengthened the portfolio by using the Piotroski F-Score to assess the firm's financial strength, selling stocks with a high score and rebalancing every quarter.}
+          \resumeItemListEnd
+%      \resumeProjectHeading
+%          {\textbf{Safe Crowds} $|$ \emph{OpenCV, Pandas, Matplotlib, Scikit-learn}}{January 2021}
+%          \resumeItemListStart
+%            \resumeItem{Used YOLOv3 with OpenCV to detect people who are not adhering to social distancing guidelines.}
+%            \resumeItem{Implemented a perspective mapping algorithm to calculate real-time distance between objects.}
+%            \resumeItem{Created real-time hotspots by analyzing violations using K-Means Clustering to assist contact tracing.}
+%          \resumeItemListEnd
+    % \resumeSubHeadingListEnd
+
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=10.8pt, label={}]
+    \small{\item{
+     \textbf{Languages}{: \hspace{1.5mm} Python, \CC, SQL, C, Java, Go, Ruby, JavaScript, HTML/CSS, R} \\
+     }}
+     \vspace{0pt}
+      \small{\item{
+     \textbf{Libraries}{:\hspace{6.2mm} TensorFlow, PyTorch, Pandas, NumPy, SciPy, MongoDB, Scikit, Boost \CC, Tatum} \\
+     }}\vspace{0pt}
+      \small{\item{
+     \textbf{Tools}{:\hspace{13mm} Git, Docker, Kubernetes, VIM, GDB, GCOV/LCOV, TravisCI, Google Cloud Platform} \\
+     }}\vspace{0pt}
+      \small{\item{
+     \textbf{Frameworks}{: React, Node.js, AWS, NLP, Postgres, OpenCV, Django, Angular.js, Vue.js} \\
+    }}
+ \end{itemize}
+
+%-------------------------------------------
+\end{document}
