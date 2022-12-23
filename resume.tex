@@ -104,13 +104,7 @@
 
 
 \begin{document}
-
-%----------HEADING----------
-% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
-%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
-%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
-% \end{tabular*}
-
+%-----------HEADING-----------
 \begin{center}
     \textbf{\huge \scshape Akshath Chaudhary} \\ \vspace{1pt}
     \small (416)\,830-4337 $|$ \href{mailto:akshath.chaudhary@uwaterloo.ca}{\underline{akshath.chaudhary@uwaterloo.ca}} $|$ 
@@ -124,7 +118,7 @@
   \resumeSubHeadingListStart
     \resumeSubheading
       {University of Waterloo}{September 2019 -- May 2024}
-      {4A, Bachelor of Computer Science; \textbf{CGPA: 3.90/4.00}}{Waterloo, ON}
+      {4B, Bachelor of Computer Science}{Waterloo, ON}
       \begin{itemize}
 %      \small\item \textbf{CGPA}: 3.90/4.00
       \small\item \textbf{Awards}: \textit{Dean's Honours List, Concept Entrepreneurship Funding Recipient, Intramural Soccer finalist}
@@ -132,23 +126,22 @@
       \end{itemize}
    \resumeSubHeadingListEnd
 
-
-
-
-
- 
-
 %-----------EXPERIENCE-----------
 \section{Relevant Experience}
   \resumeSubHeadingListStart
+    \resumeSubheading
+          {Google}{May 2023 -- August 2023}
+          {Incoming Software Engineering Intern}{Toronto, ON}
+          \resumeItemListStart
+            \resumeItem{Joining the Technical Infrastructure team in Summer 2023 to build the backend infrastructure for GCP.}
+           \resumeItemListEnd
   \resumeSubheading
       {Coinbase}{September 2022 -- December 2022}
       {Software Engineering Intern}{Toronto, ON}
       \resumeItemListStart
-    % %   \resumeItem{Joining the Infrastructure  \& Platform team to build the backend platform of core Coinbase products.}
-    %     \resumeItem{Joining the Institutional Trading team to develop and analyze high-frequency trading algorithms.}
-        \resumeItem{Joining the Machine Learning \& Platform team to build machine intelligence into Coinbase products.}
-        % \resumeItem{Joining the Coin Recommendation team to build machine intelligence into Coinbase products.}
+        \resumeItem{Launched a \textbf{low-latency endpoint} for hot wallets to interact with an internal ML feed engine using Go, Docker, and SQL which resulted in a 23\% faster retrieval time of ERC-20 token recommendations.}
+        \resumeItem{Developed a \textbf{template engine} using Python to automate the configuration onboarding process for an internal feed engine with support for new candidate generators and rankers.}
+        \resumeItem{Derived online and offline \textbf{features} for better personalized asset recommendations including features about the most recently purchased asset and the output of existing offline models.}
        \resumeItemListEnd
       
    \resumeSubheading
@@ -156,7 +149,7 @@
       {Software Engineering Intern}{San Francisco, CA}
        \resumeItemListStart
        \resumeItem{Developed a self-learning \textbf{recommendation engine} with collaborative filtering for initial scan settings per customer segment using TensorFlow, Pandas, and Matplotlib.}
-       \resumeItem{Developed a \textbf{language processing} algorithm to detect and match similar scans for easy analysis with a $k$-fold cross validated accuracy of 85\% using SciPy and NumPy.}
+       \resumeItem{Implemented a \textbf{language processing} algorithm to detect and match similar scans for easy analysis with a $k$-fold cross validated accuracy of 85\% using SciPy and NumPy.}
        \resumeItem{Constructed an ETL \textbf{pipeline} to concurrently update scan specific data in real-time which reduced wait time by 35\% and decreased storage consumption by 60\% using Dask, Kubernetes, and SQLAlchemy.}
        \resumeItemListEnd
     
@@ -164,74 +157,30 @@
       {Huawei}{May 2021 -- December 2021}
       {Software Engineering Intern}{Toronto, ON}
       \resumeItemListStart
-      %Improved runtime of Static Timing Analysis (STA) by implementing a conditional incremental algorithm that updates the subset of modified edges and nodes in the timing graph which boosted the overall runtime by 800\%
-%        \resumeItem{Improved runtime of Static Timing Analysis (STA) by over 88\% via a conditional incremental algorithm that identifies and updates the subset of edges and nodes in the timing graph that have been modified.}
-	\resumeItem{\textbf{Improved runtime} of FPGA Static Timing Analysis (STA) by over 88\% via a conditional incremental algorithm using Boost that identifies and updates modified elements in the netlist.}
+	    \resumeItem{\textbf{Improved runtime} of FPGA Static Timing Analysis (STA) by over 88\% via a conditional incremental algorithm using Boost that identifies and updates modified elements in the netlist.}
         \resumeItem{Spearheaded development of a \textbf{testing framework} that increased code coverage by 120\% using CMake.}
-%        \resumeItem{Developed a validation function which dumps out the components, connections, clocks, and ports. This function assists in debugging and validating the design generated by an FPGA chip. }
 	 \resumeItem{Implemented a \textbf{path delay validator} that estimates all point to point delays using node aggregation.}
       \resumeItemListEnd
       \vspace{0pt}
- %-----------Multiple Positions Heading-----------
-%    \resumeSubSubheading
-%     {Software Engineer I}{Oct 2014 - Sep 2016}
-%     \resumeItemListStart
-%        \resumeItem{Apache Beam}
-%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
-%     \resumeItemListEnd
-    %\resumeSubHeadingListEnd
-%-------------------------------------------
-
-    \resumeSubheading
-      {Unite}{May 2020 -- August 2020}
-      {Lead Full Stack Developer Intern}{Waterloo, ON}
-      \resumeItemListStart
-        \resumeItem{\textbf{Promoted} to Lead Full Stack Developer for excellent performance. Led a team that was in charge of developing new and existing features for Unite's web applications.}
-        \resumeItem{\textbf{Saved \$20,000} for the company by refactoring the existing codebase to exclude Google's restricted scopes. Successfully led the Google security assessment with a turnover of just 2 days.}
-        \resumeItem{Decreased product delivery time from \textbf{2 days to 10 seconds} by developing a custom Node.js module that automates deployment via direct addition of the product to the user’s account.}
     \resumeItemListEnd
-    % \resumeSubSubheading
-    %  {Full Stack Developer Intern}{May 2020 -- June 2020}
-    %  \resumeItemListStart
-    %      \resumeItem{Designed and developed a \textbf{social community platform} using Node.js for the company’s users to come together, demo, and vote for their favourite products in a record time of under 2 weeks.}
-    %      \resumeItem{\textbf{Search Engine Optimized} Unite's website that resulted in a 65\% increase in traffic over 4 weeks.}
-    %      \resumeItem{Optimized the existing codebase by compressing heavy content and prioritizing above the fold content that resulted in a 45\% \textbf{decrease in loading time} and a 110\% increase in Google PageSpeed score.}
-    %  \resumeItemListEnd
-
-
-  \resumeSubHeadingListEnd
+ 
 
 
 %-----------PROJECTS-----------
 \section{Projects}
     \resumeSubHeadingListStart
       \resumeProjectHeading
-    	{\textbf{Taco} $|$ \emph{NLP, React.js, Express,js, Firestore, Python}}{June 2021}
+    	{\textbf{Taco} $|$ \emph{Python, React.js, Express,js, Firestore}}{June 2021}
           \resumeItemListStart
-         % \resumeItem{Built a speech therapy app designed to help long-term recovering COVID patients fix their impairment.}
             \resumeItem{Implemented a unique quantitative speech analysis algorithm using GCP NLP, Express.js, and Firestore that returns a score based on the user's confidence, clarity, and syntax. Built the frontend using React. }
             \resumeItem{Declared as the \textbf{overall winner} of EngHacks 2021 and secured the first prize among \textbf{300+} hackers.}
           \resumeItemListEnd
-    %   \resumeProjectHeading
-    %       {\textbf{AlgoTrading Bot} $|$ \emph{Python, Pandas, NumPy}}{April 2021}
-    %       \resumeItemListStart
-    %         \resumeItem{Developed a stock trading bot that has been backtested with an ROI of 18\% over 4 months.}
-    %         \resumeItem{Implemented a strategy that combines Renko charts and MACD indicator and used it on volatile stocks.}
-           % \resumeItem{Strengthened the portfolio by using the Piotroski F-Score to assess the firm's financial strength, selling stocks with a high score and rebalancing every quarter.}
-          \resumeItemListEnd
-%      \resumeProjectHeading
-%          {\textbf{Safe Crowds} $|$ \emph{OpenCV, Pandas, Matplotlib, Scikit-learn}}{January 2021}
-%          \resumeItemListStart
-%            \resumeItem{Used YOLOv3 with OpenCV to detect people who are not adhering to social distancing guidelines.}
-%            \resumeItem{Implemented a perspective mapping algorithm to calculate real-time distance between objects.}
-%            \resumeItem{Created real-time hotspots by analyzing violations using K-Means Clustering to assist contact tracing.}
-%          \resumeItemListEnd
-    % \resumeSubHeadingListEnd
+    \resumeItemListEnd
 
 \section{Technical Skills}
  \begin{itemize}[leftmargin=10.8pt, label={}]
     \small{\item{
-     \textbf{Languages}{: \hspace{1.5mm} Python, \CC, SQL, C, Java, Go, Ruby, JavaScript, HTML/CSS, R} \\
+     \textbf{Languages}{: \hspace{1.5mm} Python, Go, \CC, SQL, C, Java, Ruby, JavaScript, HTML/CSS, R} \\
      }}
      \vspace{0pt}
       \small{\item{
@@ -241,7 +190,7 @@
      \textbf{Tools}{:\hspace{13mm} Git, Docker, Kubernetes, VIM, GDB, GCOV/LCOV, TravisCI, Google Cloud Platform} \\
      }}\vspace{0pt}
       \small{\item{
-     \textbf{Frameworks}{: React, Node.js, AWS, NLP, Postgres, OpenCV, Django, Angular.js, Vue.js} \\
+     \textbf{Frameworks}{: React, Node.js, AWS, NLP, Postgres, FQS, OpenCV, Django, Angular.js, Vue.js} \\
     }}
  \end{itemize}
 
